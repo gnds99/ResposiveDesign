@@ -1,8 +1,15 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
 header{
 	background: url("img/bgheader.jpg");
 	height: 659px;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+section{
+	background: #fff;
+	height: 659px;
 }
 ul{
 	width: 100%;
@@ -30,8 +37,81 @@ li a{
 	background: rgba(217,216,216,0.9);
 	border: none;
 	border-radius: 15px;
-	height: 27px;
+	height: 30px;
 	padding: 7px 14px;
 	font-size: 16px;
 	color: #111111;
+	width: 100%;
+	margin-top: 5px;
 }
+#center-header{
+	height: 565px;
+}
+#centradito{
+	/*caje flex*/
+	display: flex;
+	/*centrar en horizontal*/
+	justify-content: center;
+	/*centrar en vertical*/
+	align-items: center;
+	/*para poner por debajito el work with us*/
+	flex-direction: column;
+}
+#centradito2{
+	display: flex;
+	justify-content: center;
+}
+#centradito h1{
+	color: #fff;
+	font-weight: bold;;
+	font-size: 55px;
+}
+#centradito a{
+	background: #54d154;
+	color: #fff;
+	text-align: center;
+	display: block;
+	width: 205px;
+	height: 49px;
+	border-radius: 35px;
+	padding: 8px 0;
+	font-weight: normal;
+	font-size: 21px;
+}
+
+ #centradito a:hover{
+	text-decoration: none;
+	background: #f34d04;
+	transform: scale(1.05);
+	transition: 0.5s ease all;
+}
+#centradito2 a{
+	background: #ebebe4;
+	color: black;
+	text-align: center;
+	width: 100px;
+	border-radius: 35px;
+}
+#centradito2 a:hover{
+	text-decoration: none;
+	background: #f34d04;
+	transform: scale(1.05);
+	transition: 0.5s ease all;
+}
+#primero{
+	font-size: 20px;
+	margin-top: 30px;
+	border-bottom: solid;
+	color: #828181;
+}
+#segundo{
+	margin-top: 3px;
+	text-align: center;
+	color: #e2e1e1;
+
+}
+/*#scroll-down a{
+	background: green;
+	margin-top: 125px;
+
+}*/
