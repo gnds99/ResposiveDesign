@@ -101,17 +101,41 @@ li a{
 #primero{
 	font-size: 20px;
 	margin-top: 30px;
-	border-bottom: solid;
+	/*border-bottom: solid;*/
 	color: #828181;
+	letter-spacing: 2;
+}
+#primero:after{
+	content: "";
+	width: 44px;
+	height: 1px;
+	background: #828181;
+	display: block;
+	margin: 13px auto;
 }
 #segundo{
-	margin-top: 3px;
+	margin-top: -10px;
 	text-align: center;
 	color: #e2e1e1;
 
 }
-/*#scroll-down a{
-	background: green;
-	margin-top: 125px;
+.titulo{
+	margin-top: 15px;
+	font-weight: bold;
+	color: #828181
+}
+p{
+	margin-top: 15px;
+	color: #828181;
+}
+.centrar{
+	margin-top: 85px;
+	text-align: center;
 
-}*/
+}
+.Learn a{
+	background: #54d154;
+	color: #fff;
+	border-radius: 35px;
+	height: 50px;
+}
