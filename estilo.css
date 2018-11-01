@@ -57,7 +57,11 @@ li a{
 	/*para poner por debajito el work with us*/
 	flex-direction: column;
 }
-#centradito2{
+.Learn{
+	display: flex;
+	justify-content: center;
+}
+#centradito3, #centradito2{
 	display: flex;
 	justify-content: center;
 }
@@ -85,19 +89,29 @@ li a{
 	transform: scale(1.05);
 	transition: 0.5s ease all;
 }
-#centradito2 a{
+ #centradito2 a{
 	background: #ebebe4;
 	color: black;
 	text-align: center;
 	width: 100px;
 	border-radius: 35px;
 }
-#centradito2 a:hover{
+#centradito3 a:hover, #centradito2 a:hover{
 	text-decoration: none;
 	background: #f34d04;
 	transform: scale(1.05);
 	transition: 0.5s ease all;
 }
+#centradito3 a{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: #2b9b2b;
+	color: black;
+	text-align: center;
+	width: 150px;
+	border-radius: 35px;
+}
+
 #primero{
 	font-size: 20px;
 	margin-top: 30px;
@@ -114,7 +128,6 @@ li a{
 	margin: 13px auto;
 }
 #segundo{
-	margin-top: -10px;
 	text-align: center;
 	color: #e2e1e1;
 
@@ -134,8 +147,75 @@ p{
 
 }
 .Learn a{
+	text-decoration: none;
 	background: #54d154;
-	color: #fff;
+	color: white;
+	text-align: center;
+	width: 100px;
+	height: 25px;
 	border-radius: 35px;
-	height: 50px;
+}
+.bg_verde{
+	background: #54d154;
+	height: auto;
+	width: auto;
+}
+.medida img{
+	width: 160px;
+	height: 160px;	
+	margin-top: 20px;
+/*para centrar la imagen*/
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+/*.fondo{
+	margin-left: 80px;
+	background: white;
+	width:310px;
+	height: 39px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}*/
+/*#prueba{
+	padding-right: 5px;
+	margin-left: 10px;
+	color: gray;
+}*/
+#menu{
+	margin-left: 80px;
+}
+#prueba1{
+	background: white;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border: solid 2px black;
+	border-right: none;
+	color: #2b9b2b
+}
+#fila a:hover{
+	background: #2b9b2b;
+	color: white;
+
+}
+#prueba2{
+	margin-left: -5px;
+	background:white;
+	border:solid 2px black;
+	width:100px;
+	color: #2b9b2b
+}
+#prueba3{
+	margin-left: -5px;
+	background: white;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border: solid 2px black;
+	border-left: none;
+	color: #2b9b2b
+}
+#contenedor{
+	margin-top: 30px;
 }
