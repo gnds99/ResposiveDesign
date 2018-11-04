@@ -47,7 +47,7 @@ li a{
 #center-header{
 	height: 565px;
 }
-#centradito{
+#grupo, #centradito{
 	/*caje flex*/
 	display: flex;
 	/*centrar en horizontal*/
@@ -83,7 +83,7 @@ li a{
 	font-size: 21px;
 }
 
- #centradito a:hover{
+#centradito a:hover{
 	text-decoration: none;
 	background: #f34d04;
 	transform: scale(1.05);
@@ -117,7 +117,7 @@ li a{
 	margin-top: 30px;
 	/*border-bottom: solid;*/
 	color: #828181;
-	letter-spacing: 2;
+	letter-spacing: 3;
 }
 #primero:after{
 	content: "";
@@ -169,53 +169,62 @@ p{
   	margin-left: auto;
   	margin-right: auto;
 }
-/*.fondo{
-	margin-left: 80px;
-	background: white;
-	width:310px;
-	height: 39px;
-	border-top-right-radius: 25px;
-	border-top-left-radius: 25px;
-	border-bottom-right-radius: 25px;
-	border-bottom-left-radius: 25px;
-}*/
-/*#prueba{
-	padding-right: 5px;
-	margin-left: 10px;
-	color: gray;
-}*/
-#menu{
-	margin-left: 80px;
+/*edicion del grupo de botones*/
+#grupo{
+	margin-top: 30px;
+	margin-bottom: 30px; 
 }
-#prueba1{
+#grupo label{
 	background: white;
-	border-top-left-radius: 25px;
-	border-bottom-left-radius: 25px;
-	border: solid 2px black;
-	border-right: none;
-	color: #2b9b2b
+	color: #2b9b2b;
 }
-#fila a:hover{
+#opcion1{
+	border-top-left-radius: 35px;
+	border-bottom-left-radius: 35px;
+}
+#opcion3{
+	border-top-right-radius: 35px;
+	border-bottom-right-radius: 35px;	
+}
+.activar, #prueba label:hover{
 	background: #2b9b2b;
 	color: white;
+}
+/*edicion del carrusel*/
+#carrusel{
+	margin-top: 15px;
+	/*margin-left: 250px;*/
+	/*caje flex*/
+	display: flex;
+	/*centrar en horizontal*/
+	justify-content: center;
+	/*centrar en vertical*/
+	align-items: center;
+	/*para poner por debajito el work with us*/
+	flex-direction: column;
 
 }
-#prueba2{
-	margin-left: -5px;
-	background:white;
-	border:solid 2px black;
-	width:100px;
-	color: #2b9b2b
+ #contenedor{
+ 	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center
 }
-#prueba3{
-	margin-left: -5px;
-	background: white;
-	border-top-right-radius: 25px;
-	border-bottom-right-radius: 25px;
-	border: solid 2px black;
-	border-left: none;
-	color: #2b9b2b
+#contenedor2{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-top: 5px;
+
 }
-#contenedor{
-	margin-top: 30px;
+#contenido{
+	text-align: center;
+	color: black;
+	margin-top: 10px;
+}
+#padre{
+	margin-left: 30px;
+}
+.fondo{
+	background: #f2f1f1;
 }

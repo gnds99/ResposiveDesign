@@ -82,19 +82,22 @@
         </div>
     </div>
     <div class="row">
-      <div class="col-md-4 offset-md-4" id="contendor">
-        <div id="menu" class="fondo">
-          <div id="fila">
-            <a class="btn btn-default activador" href="#" role="button" id="prueba1">Photography</a>
-            <a class="btn btn-default" href="#" role="button" id="prueba2">Design</a>
-            <a class="btn btn-default" href="#" role="button" id="prueba3">Print</a>
-          </div>
-
+      <div class="col-md-4 offset-md-4">
+        <div id="grupo">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons" id="prueba">
+            <label class="btn btn-secondary active" id="opcion1" >
+              <input type="radio" name="options" id="option1" autocomplete="off"> Photography
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option2" autocomplete="off"> Design
+            </label>
+            <label class="btn btn-secondary" id="opcion3">
+              <input type="radio" name="options" id="option3" autocomplete="off"> Print
+            </label>
+          </div>          
         </div>
-
       </div>
     </div>
-
   <div class="row">
       <div class="col-md-2 offset-md-1 medida">
         <img src="img/1.jpg" alt="">
@@ -139,26 +142,115 @@
 
 
 
+  
 
-
-
-
-
-
-
-
-
-
-
-  <!-- <a href="#" class="btn btn-danger">Ir a google.com</a> -->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col"></div>
-      <div class="col">
-        <h1>Hello, world!</h1>
+      <div class="col-md-8 offset-md-2">
+          <p id="primero" class="d-block text-center" >TESTIMONIALS</p>
+          <p id="segundo">Lorem ipsum dolor sit amet, Proin gravida nibh vel velit auctor aliquet..</p>
       </div>
-      <div class="col"></div>
-    </div>
+    </div><!-- cierre del row-->
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active bg-white">
+              <!-- contenido del carrusel-->
+              <div class="row">
+                <div class="col-md-5 offset-md-3" id="carrusel">
+                    <p class="d-block w-100" id="contenido"> "Alwalnya saya tidak menderita penyakit apapun,
+                     namun setelah saya tidak berobat ke klinik 
+                   tongfang, saya dinyatakan tidak menderita penyakit apapun"</p>
+                    <div id="padre">
+                      <div id="contenedor">
+                      <div>
+                          <img src="img/meme.png" alt="" class="img-responsive rounded-circle">
+                      </div>
+                      <div id="contenedor2">
+                         <h6>Mr. Herp</h6>
+                         <h6 class="text-muted"">CEO of Meme, Inc.</h6>
+                     </div><!-- cierre del contenedor dos-->
+                     </div><!-- cierre del contenedor-->
+                    </div><!-- cierre del padre-->
+                </div><!-- cierre del col-->
+              </div><!-- cierre del row-->
+            </div><!-- cierre del item-->
+            <div class="carousel-item">
+              <!-- contenido del carrusel-->
+              <div class="row">
+                <div class="col-md-5 offset-md-3" id="carrusel">
+                    <p class="d-block w-100" id="contenido"> "Alwalnya saya tidak menderita penyakit apapun,
+                     namun setelah saya tidak berobat ke klinik 
+                   tongfang, saya dinyatakan tidak menderita penyakit apapun"</p>
+                    <div id="padre">
+                      <div id="contenedor">
+                      <div>
+                          <img src="img/meme.png" alt="" class="img-responsive rounded-circle">
+                      </div>
+                      <div id="contenedor2">
+                         <h6>Mr. Herp</h6>
+                         <h6 class="text-muted"">CEO of Meme, Inc.</h6>
+                     </div><!-- cierre del contenedor dos-->
+                     </div><!-- cierre del contenedor-->
+                    </div><!-- cierre del padre-->
+                </div><!-- cierre del col-->
+              </div><!-- cierre del row-->
+            </div><!-- cierre del item-->
+          </div><!-- cierre del carrusel- inner-->
+        </div><!-- cierre del slide-->
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon bg-success"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon bg-success"></span>
+          </a>
+        </div><!-- cierre de la columna-->
+      </div><!-- cierre del row-->
+  </div><!-- cierre del contenedor-->
+  <br>
+  <br>
+  <div class="container-fluid fondo">
+    <div class="row" id="fondo">
+      <div class="col-md-8 offset-md-2">
+          <p id="primero" class="d-block text-center" >OUR HAPPY CLIENT</p>
+          <p id="segundo">Lorem ipsum dolor sit amet, Proin gravida nibh vel velit auctor aliquet..</p>
+      </div>
+    </div><!-- cierre del row-->    
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
