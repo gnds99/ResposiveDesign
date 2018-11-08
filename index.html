@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--Sirve para seleccionar el viewport de la pantalla, es decir, a que escala estará definido -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> <!--Sirve para cargar el CDN de la hoja de estilos de Bootstrap-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="estilo.css">
   <title>Hello, world!</title> <!--Definir título en la barra de título-->
 </head>
@@ -21,9 +22,10 @@
       </nav>
 
      <div class="col-md-2 offset-md-6">
-      <form action="#">
-        <input type="text" placeholder="Search..." class="buscador">
-      </form>
+      <div class="ppp">
+        <input type="text" placeholder="Search... " class="buscador">
+        <span class="il"><i class=" fas fa-search"></i></span>
+      </div>
      </div>
     </div>
     <div class="row" id="center-header">
@@ -34,7 +36,7 @@
     </div>
     <div class="row"> 
       <div class="col-md-2 offset-md-5" id="centradito2">
-        <a href="#" class="d-block text-center">scroll-down</a>
+        <a href="#" class="d-block text-center">scroll-down <span id="excepcion"><i class="fas fa-arrow-down"></i></span></a>
       </div>
     </div>
   </header>
@@ -116,33 +118,28 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2 offset-md-1 medida">
+      <div class="col-md-2 offset-md-1 medida2">
         <img src="img/6.jpg" alt="">
       </div>
-      <div class="col-md-2 medida">
+      <div class="col-md-2 medida2">
         <img src="img/7.jpg" alt="">
       </div>
-      <div class="col-md-2 medida">
+      <div class="col-md-2 medida2">
            <img src="img/8.jpg" alt="">
       </div>
-      <div class="col-md-2 medida">
+      <div class="col-md-2 medida2">
         <img src="img/9.jpg" alt="">
       </div>
-      <div class="col-md-2 medida">
+      <div class="col-md-2 medida2">
         <img src="img/10.jpg" alt="">
       </div>
     </div>
     <div class="row"> 
       <div class="col-md-2 offset-md-5" id="centradito3">
-        <a href="#" class="d-block text-center">View more work</a>
+        <a href="#" class="d-block text-center">View more work <span id="excepcion"> <i class="fas fa-arrow-right"></i></span></a>
       </div>
     </div>
   </div>
-
-
-
-
-  
 
   <div class="container-fluid">
     <div class="row">
@@ -165,7 +162,7 @@
                     <div id="padre">
                       <div id="contenedor">
                       <div>
-                          <img src="img/meme.png" alt="" class="img-responsive rounded-circle">
+                          <img src="img/meme.png" alt="" class="img-responsive rounded-circle" id="nnn">
                       </div>
                       <div id="contenedor2">
                          <h6>Mr. Herp</h6>
@@ -186,11 +183,11 @@
                     <div id="padre">
                       <div id="contenedor">
                       <div>
-                          <img src="img/meme.png" alt="" class="img-responsive rounded-circle">
+                          <img src="img/meme.png" alt="" class="img-responsive rounded-circle" id="nnn">
                       </div>
                       <div id="contenedor2">
                          <h6>Mr. Herp</h6>
-                         <h6 class="text-muted"">CEO of Meme, Inc.</h6>
+                         <h6 class="text-muted">CEO of Meme, Inc.</h6>
                      </div><!-- cierre del contenedor dos-->
                      </div><!-- cierre del contenedor-->
                     </div><!-- cierre del padre-->
@@ -208,46 +205,263 @@
         </div><!-- cierre de la columna-->
       </div><!-- cierre del row-->
   </div><!-- cierre del contenedor-->
-  <br>
-  <br>
   <div class="container-fluid fondo">
     <div class="row" id="fondo">
       <div class="col-md-8 offset-md-2">
           <p id="primero" class="d-block text-center" >OUR HAPPY CLIENT</p>
           <p id="segundo">Lorem ipsum dolor sit amet, Proin gravida nibh vel velit auctor aliquet..</p>
       </div>
-    </div><!-- cierre del row-->    
+    </div><!-- cierre del row-->  
+    <div class="row" id="espacio">
+      <div class="col-md-2 offset-md-1 mover">
+        <img src="img/google.png" alt="">
+      </div>
+      <div class="col-md-2 offset-md-1 mover">
+        <img src="img/yahoo.png" alt="">
+      </div>
+      <div class="col-md-2 mover">
+        <img src="img/mf.png" alt="">
+      </div>
+      <div class="md-2 mover offset-md-1">
+        <img src="img/intel.png" alt="">
+      </div>
+    </div> <!-- aqui termina row--> 
+    <div class="row" id="espacio">
+      <div class="col-md-2 offset-md-1 mover">
+        <img src="img/qual.png" alt="">
+      </div>
+      <div class="col-md-2 offset-md-1 mover">
+        <img src="img/cisco.png" alt="">
+      </div>
+      <div class="col-md-2 mover">
+        <img src="img/apple.png" alt="">
+      </div>
+      <div class="md-2 mover offset-md-1">
+        <img src="img/asus.png" alt="">
+      </div>
+    </div>
+    <div class="row"> 
+      <div class="col-md-2 offset-md-5" id="centradito4">
+        <a href="#" class="d-block text-center">See all client<span><i class="fas fa-arrow-right"></i></span></a>
+      </div>
+    </div>
+  </div><!-- cierre del contenedor-->
+  <div class="container-fluid bg-success">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+          <p id="penultimo1" class="d-block text-center text-dark" >MEET THE TEAM</p>
+          <p class="text-dark text-center">Lorem ipsum dolor sit amet, Proin gravida nibh vel velit auctor aliquet..</p>
+      </div>     
+    </div><!-- cierre del row--> 
+    <div class="row">
+      <!-- primero--> 
+      <div class="col-2 offset-md-1">
+        <div class="mover">
+            <img src="img/IMG1.jpg" alt="" class="rounded-circle"> 
+        </div>
+        <div>
+         <p id="linea"></p>         
+        </div>
+        <div>
+          <p id="posicion">Krisna Wijaya</p>
+          <div id="redesSociales">
+              <a href="#" id><img src="img/red1.png" alt=""></a>
+              <a href="#"><img src="img/red2.png" alt=""></a>
+              <a href="#"><img src="img/red3.png" alt=""></a>
+          </div>
+        </div>
+      </div><!-- cierre del col--> 
+        <!-- segundo-->     
+      <div class="col-2">
+        <div class="mover">
+            <img src="img/IMG2.jpg" alt="" class="rounded-circle"> 
+        </div>
+        <div>
+         <p id="linea"></p>         
+        </div>
+        <div>
+          <p id="posicion2">Gabriel Yoshua</p>
+          <div id="redesSociales">
+              <a href="#" id><img src="img/red1.png" alt=""></a>
+              <a href="#"><img src="img/red2.png" alt=""></a>
+              <a href="#"><img src="img/red3.png" alt=""></a>
+          </div>          
+        </div>
+      </div><!-- cierre del col--> 
+      <!-- tercero--> 
+      <div class="col-2">
+        <div class="mover">
+            <img src="img/IMG3.jpg" alt="" class="rounded-circle"> 
+        </div>
+        <div>
+         <p id="linea"></p>         
+        </div>
+        <div>
+          <p id="posicion3">Adik N.K.L</p>
+          <div id="redesSociales">
+              <a href="#" id><img src="img/red1.png" alt=""></a>
+              <a href="#"><img src="img/red2.png" alt=""></a>
+              <a href="#"><img src="img/red3.png" alt=""></a>
+          </div>
+        </div>
+      </div><!-- cierre del col--> 
+      <!-- cuarto--> 
+      <div class="col-2">
+        <div class="mover">
+            <img src="img/IMG4.jpg" alt="" class="rounded-circle"> 
+        </div>
+        <div>
+         <p id="linea"></p>         
+        </div>
+        <div>
+          <p id="posicion4">Zan D.J</p>
+          <div id="redesSociales">
+              <a href="#" id><img src="img/red1.png" alt=""></a>
+              <a href="#"><img src="img/red2.png" alt=""></a>
+              <a href="#"><img src="img/red3.png" alt=""></a>
+          </div>
+        </div>
+      </div><!-- cierre del col--> 
+      <!-- quinto--> 
+      <div class="col-2">
+        <div class="mover">
+            <img src="img/IMG5.jpg" alt="" class="rounded-circle"> 
+        </div>
+        <div>
+         <p id="linea"></p>         
+        </div>
+        <div>
+          <p id="posicion5">Faizal Febri</p>
+          <div id="redesSociales">
+              <a href="#" id><img src="img/red1.png" alt=""></a>
+              <a href="#"><img src="img/red2.png" alt=""></a>
+              <a href="#"><img src="img/red3.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div><!-- cierre del row--> 
+  </div><!-- cierre del contenedor--> 
+  <div class="conteiner-fluid" id="fondo2">
+    <div class="row">
+      <div class="col-md-12" id="center">
+        <a href="#" class="d-block text-center">WORK WITH US</a>
+      </div>  
+    </div>
   </div>
+  <div class="container-fluid">
+    <div class="row">
+      <section class="col-md-4" id="sectionback">
+        <div>
+          <p id="penultimo"  class="d-block text-center" >ABOUT US</p>
+        </div>
+        <div>
+          <p id="contenido" class="text-white"> This is Photoshop's version  of Lorem <br> Ipsum. Proin gravida nibh vel velit auctor <br>aliquet. Aenean sollicitudin, lorem quis<br> bibendum auctor, nisi elit consequat ipsum,<br> nec sagittis sem nibh id elit. Duis sed odio sit<br>  amet nibh vulputate cursus a sit amet mauris.<br>  Morbi accumsan ipsum velit. Ut aliquam massa<br>  nisl quis neque. Suspendisse in orci<br>  enim.Aenean sollicitudin, lorem quis bibendum<br> auctor, nisi elit consequat ipsum, nec sagittis<br>  sem nibh id elit. Duis sed odio sit amet nibh<br>  vulputate cursus.</p>
+        </div>
+        <div id="redesSociales2">
+              <a href="#" id><img src="img/red1.png" alt=""></a>
+              <a href="#"><img src="img/red2.png" alt=""></a>
+              <a href="#"><img src="img/red3.png" alt=""></a>
+        </div>
+      </section><!-- aqui termina el primer section-->
+      <section  class="col-md-4" id="sectionback">
+        <div>
+          <p  id="penultimo" class="d-block text-center" >RECENT POST</p>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class="post"><!--aqui empiezan los flexbox-->
+          <div class="uno">
+              <img src="img/6.jpg" alt="" class="miniatura">
+          </div>
+          <div class="dos">
+            <p id="titulo">Lorem ipsum dolor sit amet.</p>
+            <label for="" id="titulo2"><a href="" class="decoracion">MAGAZINE</a></label>     
+          </div>
+        </div><!-- aqui termina el contenedor del flexbox-->
+        <div class="post">
+          <div class="uno">
+              <img src="img/7.jpg" alt="" class="miniatura">
+          </div>
+          <div class="dos">
+            <p id="titulo">Lorem ipsum dolor sit amet.</p>
+            <label for="" id="titulo3"><a href="" class="decoracion">UI DESIGN</a></label>     
+          </div>
+        </div><!-- aqui termina el contenedor del flexbox-->
+        <div class="post">
+          <div class="uno">
+              <img src="img/8.jpg" alt="" class="miniatura">
+          </div>
+          <div class="dos">
+            <p id="titulo">Lorem ipsum dolor sit amet.</p>
+            <label for="" id="titulo4"><a href="" class="decoracion">PHOTOGRAPHY</a></label>     
+          </div>
+        </div><!-- aqui termina el contenedor del flexbox-->
+        <div class="post">
+          <div class="uno">
+              <img src="img/10.jpg" alt="" class="miniatura">
+          </div>
+          <div class="dos">
+            <p id="titulo">Lorem ipsum dolor sit amet.</p>
+            <label for="" id="titulo5"><a href="" class="decoracion">BOOK</a></label>     
+          </div>
+        </div><!-- aqui termina el contenedor del flexbox-->
+        <div class="post">
+          <div class="uno">
+              <img src="img/9.jpg" alt="" class="miniatura">
+          </div>
+          <div class="dos">
+            <p id="titulo">Lorem ipsum dolor sit amet.</p>
+            <label for="" id="titulo6"><a href="" class="decoracion">UI DESIGN</a></label>     
+          </div>
+        </div><!-- aqui termina el contenedor del flexbox-->
+      </section><!-- aqui termina el section-->
+      <section class="col-md-4" id="sectionback">
+        <div>
+          <p id="penultimo" class="d-block text-center" >CONTAC US</p>
+        </div>
+       	<div id="contenido">
+       		<p>10044 West 23th Street, Suite 721 <br>New York NY 10010 <br>Email: Username@email.com <br>Phone: +1 (0) 123 4567 890 <br>Fax: +1 (0) 321 4567 890</p>
+       	</div>
+		<div id="contenido">
+			<input type="text" class="caja text-muted" placeholder="Your Name...">
+      <br>
+			<input type="text" class="caja2" placeholder="Your Email...">
+      <br>
+      <textarea name=""  cols="35" rows="10" placeholder="Your Message..." class="caja3"></textarea>
+      <button type="button" class="btn btn-primary btn-xlg caja4">SEND</button>
+		</div>
+      </section>
+    </div><!-- aqui termina el row-->
+  </div><!-- aqui termina el container-->
+  <div class="container-fluid" id="pie">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <p id="ultimo" class="d-block text-center" >AS SEEN ON</p>
+        </div>
+    </div><!--aqui termina el row-->
+    <div class="row">
+      <div class="col-md-1 offset-md-1 text-center">
+        <img src="img/pie4.png" alt="">
+      </div>
+      <div class="col-md-1 offset-md-1 text-center">
+        <img src="img/pie3.png" alt="">
+      </div>
+      <div class="col-md-2 offset-md-1 text-center">
+        <img src="img/pie2.png" alt="">
+      </div>
+      <div class="col-md-3 offset-md-1 text-center">
+        <img src="img/pie1.png" alt="">
+      </div>
+    </div>
+    <br>
+  </div><!-- aqui termina el contenedor-->
+  <footer class="container-fluid">
+      <div class="row">
+        <div class="col-md2 offset-md-5" id="foot">
+          <p> made with <span><i class="fas fa-heart"></i> </span>by Noe :v</p>
+        </div>
+      </div>
+  </footer>
+  
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
